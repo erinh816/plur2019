@@ -1,0 +1,512 @@
+.hide {
+    display: none;
+  }
+  
+  
+  .navbar{
+    background: rgba(0,0,0,.5);
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  #dropdownMenuButton{
+    background-image: linear-gradient(-216deg,#d63a76,#8c0038 50%,#d63a76)!important;
+    opacity: 0.8;
+    height:44px;
+    text-align:center;
+    }
+  
+  .btn-outline-primary {
+    border: 2px solid #d63a76!important;
+    background-color: transparent!important;
+    color: #d63a76!important;
+  }
+  
+  .cardDisplay{
+    margin-top:70px;
+  }
+  
+  .headImg{
+    background-position: 40% 50%;
+    position: relative;
+    -webkit-box-shadow: 0 2px 44px 0 #b4c1d1;
+    box-shadow: 0 2px 44px 0 #b4c1d1;
+  }
+  
+  .button .btn-secondary {
+    /* background-image: linear-gradient(-216deg,rgb(125, 63, 169), rgb(78, 29, 113) 50%,rgb(125, 63, 169))!important; */
+    background-image: linear-gradient(-216deg,#d63a76,#8c0038 50%,#d63a76)!important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    font-family: 'Permanent Marker';
+    font-size: 16px;
+    letter-spacing: 1px;
+    opacity:0.8;
+    height:44px;
+  }  
+  
+  .fa-user-circle {
+    font-size: 25px;
+  }
+  
+  .trbc, .card-deck {
+    background:transparent 
+  }
+  
+  .card-deck {
+    margin-top: 100px;
+    position:relative;
+    outline-color: #eaeaea;
+  }
+  
+  .card-header {
+    background-image: linear-gradient(-216deg,#d63a76,#8c0038 50%,#d63a76);
+    opacity:0.85;
+  }
+  
+  .card-header h4 {
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+  }
+  
+  .card-title {
+    font-family: 'Raleway';
+    font-size: 28px;
+  }
+  
+  .card-body {
+    background: #fff;
+    border-radius: 2px 2px 2px 2px; 
+    -webkit-box-shadow: 0 1px 4px 
+    rgba(0, 0, 0, 0.3), 0 0 40px 
+    rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px 
+    rgba(0, 0, 0, 0.3), 0 0 40px 
+    rgba(0, 0, 0, 0.1) inset;
+  }
+  
+  .card-body ul {
+    font-family: 'Raleway';
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .carouselImg {
+    width: 100%;
+    height: 550px;
+    opacity:0.9;
+    background-image: linear-gradient(45deg,rgba(184,0,0,.36),rgba(0,10,89,.36));
+    content: "";
+  }
+  
+  #carouselExampleControls{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background: rgb(7, 98, 216);
+    opacity:0.9; 
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .historyBar {
+    max-height:31px;
+    overflow:hidden
+  }
+  
+  .modal,.modal-open {
+    top:100px;
+    right:0px;
+    left:auto;
+    max-height: 100%;
+    overflow-y:hidden!important;
+  }
+  
+  .modal-dialog {
+    height:100%;
+    max-height: 100%;
+  }
+  
+  .modal-content {
+    top:0px;
+    bottom:0px;
+    height:100%;
+    max-height: 100%;
+  }
+  
+  .faves {
+    overflow:scroll
+  }
+  
+  .active-cyan-3 input[type=text] {
+    border: 1px solid #4dd0e1;
+    box-shadow: 0 0 0 1px #4dd0e1;
+  }
+  
+  #address-input {
+    width: 175px;
+    margin-right: 10px;
+    font-family: 'Permanent Marker';
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  
+  .start-date, .end-date {
+    font-family: 'Permanent Marker';
+    font-size: 18px;
+    margin-right: 2px;
+  } 
+  
+  label {
+    margin-left: 20px;
+  }
+  
+  #datepicker {
+    width: 150px; 
+    margin: 0 20px 20px 20px;
+  }
+  
+  #datepicker > span:hover {
+    cursor: pointer;
+  }
+  
+  #map,.map{
+    height:100%
+  }
+  
+  .map{
+    max-height:700px
+  }
+  
+  .map {
+    width: 400px;
+    float: left;
+  }
+  
+  .eventCard{
+    background: white !important
+  }
+  
+  .festivalCard{
+    margin-top:600px;
+  }
+  
+  /* lightbox css */  
+  .lightbox {
+    width:40%;
+    height:100%;
+    position:fixed;
+    right:-40%;
+    top:0px;
+    text-align: center;
+    box-shadow: -15px 15px 10px 0 rgba(20, 15, 15, 0.322);
+    z-index:1001;
+  }
+  .likedLightbox{
+    background:white;
+    overflow:scroll;
+    width:40%;
+    height:100%;
+    position:fixed;
+    right:-40%;
+    top:0px;
+    text-align: center;
+    box-shadow: -15px 15px 10px 0 rgba(20, 15, 15, 0.322);
+    z-index:1001;
+  }
+  .lightbox {
+    display: block;
+    cursor: default;
+    background: #fff url(http://tympanus.net/Tutorials/OriginalHoverEffects/images/bgimg.jpg) repeat;
+    -webkit-box-shadow:0 5px 10px #666; 
+    -moz-box-shadow:0 5px 10px #666;
+    box-shadow:0 5px 10px #666;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;  
+  }
+  
+  .lightbox-title {
+    font-family: 'Patrick Hand';
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+  
+  .lightbox-date {
+    font-family: 'Permanent Marker';
+    font-size: 25px;
+    margin-top: 5px;
+    font-style: italic;
+  }
+  
+  .lightbox-venue, .lightbox-yelp {
+    font-family: 'Permanent Marker';
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+    
+  .lightbox-address-1, .lightbox-address-2  {
+    font-family: 'Permanent Marker';
+    font-size: 25px;
+  }
+  
+  .lightbox-ticketURL, .lightbox-infoURL {
+    font-size: 50px;
+    display: inline;
+    margin: 30px;
+  }
+  
+  .heartButton:hover {
+    opacity:0.3;
+  }
+  
+  #share-buttons img {
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+    }
+    
+  .closeLightbox {
+    background:transparent;
+    font-size: 40px;
+    outline: 0;
+    position: absolute;
+    bottom: 10px;
+    border: none;
+    left: 47%
+  }
+  .closeLiked{
+    background: transparent;
+    font-size: 30px;
+    outline: 0;
+    top: 10px;
+    border: none;
+    left: 10px;
+  }
+  .likedSymbol{
+    width: 50px;
+    height: 50px;
+    top: 30px;
+  }
+  .close-btn:hover {
+    text-shadow: 1px 1px 4px rgba(20, 15, 15, 0.322);
+  }
+  
+  .close-btn:active {
+    text-shadow: none;
+  }
+  
+  /* logo display css */
+  .letters {
+    font-family: 'Lakki Reddy';
+  }
+  
+  .ml6 {
+    color:silver;
+    position: relative;
+    font-weight: 900;
+    /* font-size: 3.8em; */
+    font-size: 4em;
+  
+    animation: change 1s  ease-in  infinite ; font-size: 36px; color:rgb(247, 239, 239); font-weight: bold}
+    @keyframes change {
+    0%{ text-shadow: 0 0 4px rgb(240, 234, 234)}
+    50%{ text-shadow: 0 0 40px #d63a76}
+    100%{ text-shadow: 0 0 4px rgb(241, 237, 237)}
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.5em;
+    /* padding-right: 4em; */
+    padding-bottom: 0em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  .spinner {
+    height: 40px;
+    text-align: center;
+  }
+  
+  .spinner > div {
+    background-image: linear-gradient(-216deg,#d63a76,#8c0038 50%,#d63a76);
+    height: 100%;
+    width: 8px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out; 
+    
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);        
+    }
+  }
+  
+  .likedLightbox{
+    background: #fff url(http://tympanus.net/Tutorials/OriginalHoverEffects/images/bgimg.jpg) repeat;
+    -webkit-box-shadow:0 5px 10px #666; 
+    -moz-box-shadow:0 5px 10px #666;
+    box-shadow:0 5px 10px #666;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;  
+  }
+  
+    
+  
+  
+  /* media queries */
+  @media (max-width:1024px) {
+    .spinner, .ml6 {
+      display: none;
+    }
+    .weather {
+      margin-left: 0px;
+    }
+    .map {
+      right: 15px;
+    }
+    .cardDisplay {
+      left: 5px;
+    }
+  }
+  
+  @media (min-width: 376px) and (max-width: 768px) {
+    .navbar {
+      height: 275px;
+    }
+    #address-input {
+      width: 100%;
+    }
+    #startDatePicker, #endDatePicker {
+      width: 48%;
+      margin: 6px;
+    }
+    .button .btn-secondary {
+      width: 700px;
+    }
+    .weather, .user {
+      width: 300px;
+    }
+    .weather {
+      margin-left: 7px;
+    }
+    .user {
+      margin-right: 3px;
+    }
+    .card-header h4 {
+      font-size: 70%;
+    }
+    .card-title {
+      font-size: 90%;
+    }
+    .btn[class*=btn-outline-].btn-lg {
+      font-size: 80%;
+    }
+    .map {
+      margin-top: 70%;
+      width: 275px;
+    }
+    .cardDisplay{
+      margin-top: 65%;
+    }
+  }
+  
+  
+  @media (max-width:375px) {
+    .navbar { 
+      height: 250px;
+    }
+    #address-input {
+      width: 330px;
+      margin-bottom: 3px;
+    }
+    #startDatePicker, #endDatePicker {
+      width: 97%;
+    }
+    .button .btn-secondary {
+      width: 320px;
+    }
+    .btn-secondary.dropdown-toggle {
+      width: 320px;
+    }
+    .lightbox {
+      width: 70%;
+      height: 98%;
+      font-size: 85%;
+    }
+    .weather {
+      display: none;
+    }
+    .map {
+      display: none;
+    }
+    .cardDisplay {
+      margin-top: 65%;
+    }
+    .likedLightbox {
+      width: 300px;
+      font-size: 70%;
+    }
+  }
+  
+  
